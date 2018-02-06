@@ -51,3 +51,9 @@ nnoremap <leader>wq :wq<cr>
 "split helper
 nnoremap <leader>st :call SplitManager()<cr>
 
+"use tabe
+let g:jedi#use_tabs_not_buffers = 1
+
+"close flake8 errors
+nnoremap <leader>ce :lclose<cr>
+nnoremap <leader>se :Errors<cr>
